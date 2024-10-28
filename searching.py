@@ -8,7 +8,7 @@ def heuristic_search(x, y1, y2):
         if x[i] == y1 or x[i] == y2:
             return x[i]
         else:
-            return "Data tidak ditemukan"
+            return 0
 
 output = heuristic_search(x, y1, y2)
 print(f"Hasil dari pencarian: {output}")
